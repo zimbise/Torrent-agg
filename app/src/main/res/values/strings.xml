@@ -1,6 +1,2 @@
 <resources>
-  <string name="app_name">Torrent Aggregator</string>
-  <string name="search_hint">Search torrents...</string>
-  <string name="search">Search</string>
-  <string name="downloadwithclient">Send to client</string>
-</resources>
+    <string name="app_name">Torrent Agg</string>
