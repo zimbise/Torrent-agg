@@ -1,0 +1,14 @@
+{
+  "listSelector": "table.table tbody tr",
+  "fields": {
+    "title": { "selector": "td a.torrent-title", "attr": "text" },
+    "detailUrl": { "selector": "td a.torrent-title", "attr": "href", "absolute": true },
+    "seeders": { "selector": "td:nth-child(6)", "attr": "text" },
+    "leechers": { "selector": "td:nth-child(7)", "attr": "text" },
+    "size": { "selector": "td:nth-child(5)", "attr": "text" }
+  },
+  "magnet": {
+    "fromDetailPage": true,
+    "detailMagnetSelector": "a[href^='magnet:?']"
+  }
+}

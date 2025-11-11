@@ -1,0 +1,14 @@
+{
+  "listSelector": "tr.forum_header_border",
+  "fields": {
+    "title": { "selector": "td a", "attr": "text" },
+    "detailUrl": { "selector": "td a", "attr": "href", "absolute": true },
+    "size": { "selector": "td.forum_thread_post", "attr": "text" },
+    "seeders": { "selector": "td.forum_thread_post:nth-child(6)", "attr": "text" },
+    "leechers": { "selector": "td.forum_thread_post:nth-child(7)", "attr": "text" }
+  },
+  "magnet": {
+    "fromDetailPage": true,
+    "detailMagnetSelector": "a[href^='magnet:?']"
+  }
+}

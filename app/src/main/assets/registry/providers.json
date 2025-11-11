@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "providers": [
+    { "id": "1337x", "name": "1337x", "enabled": true, "searchUrl": "https://1337x.to/search/{query}/1/", "parser": "providers/1337x.json", "headersProfile": "desktop", "proxyProfile": "none", "timeoutMs": 12000 },
+    { "id": "piratebay", "name": "The Pirate Bay", "enabled": true, "searchUrl": "https://thepiratebay.org/search/{query}/1/99/0", "parser": "providers/piratebay.json", "headersProfile": "desktop", "proxyProfile": "aggressive", "timeoutMs": 12000 },
+    { "id": "yts", "name": "YTS", "enabled": true, "searchUrl": "https://yts.mx/browse-movies/{query}/all/all/0/latest/0/all", "parser": "providers/yts.json", "headersProfile": "desktop", "proxyProfile": "none", "timeoutMs": 12000 },
+    { "id": "limetorrents", "name": "LimeTorrents", "enabled": true, "searchUrl": "https://www.limetorrents.lol/search/all/{query}/", "parser": "providers/limetorrents.json", "headersProfile": "desktop", "proxyProfile": "aggressive", "timeoutMs": 14000 },
+    { "id": "torrentgalaxy", "name": "TorrentGalaxy", "enabled": true, "searchUrl": "https://torrentgalaxy.to/torrents.php?search={query}&cat=0&sort=id&order=desc", "parser": "providers/torrentgalaxy.json", "headersProfile": "desktop", "proxyProfile": "none", "timeoutMs": 12000 },
+    { "id": "zooqle", "name": "Zooqle", "enabled": true, "searchUrl": "https://zooqle.com/search?q={query}", "parser": "providers/zooqle.json", "headersProfile": "desktop", "proxyProfile": "strict", "timeoutMs": 15000 },
+    { "id": "eztv", "name": "EZTV", "enabled": true, "searchUrl": "https://eztv.re/search/{query}", "parser": "providers/eztv.json", "headersProfile": "desktop", "proxyProfile": "none", "timeoutMs": 12000 },
+    { "id": "nyaa", "name": "Nyaa", "enabled": true, "searchUrl": "https://nyaa.si/?f=0&c=0_0&q={query}", "parser": "providers/nyaa.json", "headersProfile": "desktop", "proxyProfile": "none", "timeoutMs": 12000 },
+    { "id": "bt4g", "name": "BT4G", "enabled": true, "searchUrl": "https://bt4g.org/search/{query}", "parser": "providers/bt4g.json", "headersProfile": "desktop", "proxyProfile": "none", "timeoutMs": 12000 },
+    { "id": "torlock", "name": "TorLock", "enabled": true, "searchUrl": "https://www.torlock.com/all/torrents/{query}.html", "parser": "providers/torlock.json", "headersProfile": "desktop", "proxyProfile": "none", "timeoutMs": 15000 },
+    { "id": "torrentfunk", "name": "TorrentFunk", "enabled": true, "searchUrl": "https://www.torrentfunk.com/all/torrents/{query}.html", "parser": "providers/torrentfunk.json", "headersProfile": "desktop", "proxyProfile": "none", "timeoutMs": 15000 },
+    { "id": "glodls", "name": "Glodls", "enabled": true, "searchUrl": "https://glodls.to/search.php?search={query}", "parser": "providers/glodls.json", "headersProfile": "desktop", "proxyProfile": "none", "timeoutMs": 15000 },
+    { "id": "yourbittorrent", "name": "YourBittorrent", "enabled": true, "searchUrl": "https://yourbittorrent.com/?q={query}", "parser": "providers/yourbittorrent.json", "headersProfile": "desktop", "proxyProfile": "none", "timeoutMs": 15000 },
+    { "id": "rargbmirror", "name": "RARBG Mirror", "enabled": true, "searchUrl": "https://rargb.to/search/{query}/", "parser": "providers/rargbmirror.json", "headersProfile": "desktop", "proxyProfile": "strict", "timeoutMs": 16000 },
+    { "id": "ettv", "name": "ETTV", "enabled": true, "searchUrl": "https://www.ettvdl.com/torrents-search.php?search={query}", "parser": "providers/ettv.json", "headersProfile": "desktop", "proxyProfile": "none", "timeoutMs": 15000 },
+    { "id": "kickass", "name": "KickAss (Mirror)", "enabled": true, "searchUrl": "https://kickass.ws/usearch/{query}/", "parser": "providers/kickass.json", "headersProfile": "desktop", "proxyProfile": "aggressive", "timeoutMs": 15000 },
+    { "id": "torrentdownloads", "name": "TorrentDownloads", "enabled": true, "searchUrl": "https://www.torrentdownloads.pro/search/?search={query}", "parser": "providers/torrentdownloads.json", "headersProfile": "desktop", "proxyProfile": "none", "timeoutMs": 15000 },
+    { "id": "anidex", "name": "AniDex", "enabled": true, "searchUrl": "https://anidex.info/?q={query}", "parser": "providers/anidex.json", "headersProfile": "desktop", "proxyProfile": "none", "timeoutMs": 15000 },
+    { "id": "animetosho", "name": "AnimeTosho", "enabled": true, "searchUrl": "https://animetosho.org/search?q={query}", "parser": "providers/animetosho.json", "headersProfile": "desktop", "proxyProfile": "none", "timeoutMs": 15000 },
+    { "id": "mactorrents", "name": "MacTorrents", "enabled": true, "searchUrl": "https://mactorrents.io/?s={query}", "parser": "providers/mactorrents.json", "headersProfile": "desktop", "proxyProfile": "none", "timeoutMs": 15000 },
+    { "id": "newalbumreleases", "name": "NewAlbumReleases", "enabled": true, "searchUrl": "https://newalbumreleases.net/?s={query}", "parser": "providers/newalbumreleases.json", "headersProfile": "desktop", "proxyProfile": "none", "timeoutMs": 15000 },
+    { "id": "demonoid", "name": "Demonoid (Mirror)", "enabled": true, "searchUrl": "https://demonoid.is/search?q={query}", "parser": "providers/demonoid.json", "headersProfile": "desktop", "proxyProfile": "strict", "timeoutMs": 16000 },
+    { "id": "torrentkitty", "name": "TorrentKitty", "enabled": true, "searchUrl": "https://www.torrentkitty.tv/search/{query}", "parser": "providers/torrentkitty.json", "headersProfile": "desktop", "proxyProfile": "aggressive", "timeoutMs": 15000 },
+    { "id": "seedpeer", "name": "SeedPeer", "enabled": true, "searchUrl": "https://seedpeer.me/torrents/{query}", "parser": "providers/seedpeer.json", "headersProfile": "desktop", "proxyProfile": "none", "timeoutMs": 15000 },
+
+    { "id": "torrentz2", "name": "Torrentz2", "enabled": true, "searchUrl": "https://torrentz2.nz/search?f={query}", "parser": "providers/torrentz2.json", "headersProfile": "desktop", "proxyProfile": "none", "timeoutMs": 15000 },
+    { "id": "magnetdl", "name": "MagnetDL", "enabled": true, "searchUrl": "https
+

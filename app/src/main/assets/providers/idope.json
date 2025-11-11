@@ -1,0 +1,13 @@
+{
+  "listSelector": "div.resultdiv",
+  "fields": {
+    "title": { "selector": "h4 a", "attr": "text" },
+    "detailUrl": { "selector": "h4 a", "attr": "href", "absolute": true },
+    "seeders": { "selector": "span.seeders", "attr": "text" },
+    "leechers": { "selector": "span.leechers", "attr": "text" },
+    "size": { "selector": "span.size", "attr": "text" }
+  },
+  "magnet": {
+    "fromDetailPage": false
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "listSelector": "div.post",
+  "fields": {
+    "title": { "selector": "h2.entry-title a", "attr": "text" },
+    "detailUrl": { "selector": "h2.entry-title a", "attr": "href", "absolute": true },
+    "size": { "selector": "div.entry-content p", "attr": "text" }
+  },
+  "magnet": {
+    "fromDetailPage": true,
+    "detailMagnetSelector": "a[href^='magnet:?']"
+  }
+}

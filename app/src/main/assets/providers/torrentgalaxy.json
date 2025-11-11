@@ -1,0 +1,14 @@
+{
+  "listSelector": "div.tgxtable div.tgxtable tbody tr",
+  "fields": {
+    "title": { "selector": "a[href^='/torrent/']", "attr": "text" },
+    "detailUrl": { "selector": "a[href^='/torrent/']", "attr": "href", "absolute": true },
+    "seeders": { "selector": "td:nth-child(6)", "attr": "text" },
+    "leechers": { "selector": "td:nth-child(7)", "attr": "text" },
+    "size": { "selector": "td:nth-child(5)", "attr": "text" }
+  },
+  "magnet": {
+    "fromDetailPage": true,
+    "detailMagnetSelector": "a[href^='magnet:?']"
+  }
+}

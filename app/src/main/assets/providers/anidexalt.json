@@ -1,0 +1,13 @@
+{
+  "listSelector": "table.table-striped tbody tr",
+  "fields": {
+    "title": { "selector": "td a", "attr": "text" },
+    "detailUrl": { "selector": "td a", "attr": "href", "absolute": true },
+    "seeders": { "selector": "td:nth-child(8)", "attr": "text" },
+    "leechers": { "selector": "td:nth-child(9)", "attr": "text" },
+    "size": { "selector": "td:nth-child(5)", "attr": "text" }
+  },
+  "magnet": {
+    "fromDetailPage": false
+  }
+}

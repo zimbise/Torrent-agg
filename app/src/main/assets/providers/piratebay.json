@@ -1,0 +1,11 @@
+{
+  "listSelector": "table#searchResult tr",
+  "fields": {
+    "title": { "selector": "td div.detName a", "attr": "text" },
+    "detailUrl": { "selector": "td div.detName a", "attr": "href", "absolute": true },
+    "seeders": { "selector": "td[align='right']:nth-of-type(1)", "attr": "text" },
+    "leechers": { "selector": "td[align='right']:nth-of-type(2)", "attr": "text" },
+    "size": { "selector": "font.detDesc", "attr": "text" }
+  },
+  "magnet": { "fromDetailPage": false }
+}

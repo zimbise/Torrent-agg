@@ -1,0 +1,13 @@
+{
+  "listSelector": "table.torrent-list tbody tr",
+  "fields": {
+    "title": { "selector": "td.name a:not(.comments)", "attr": "text" },
+    "detailUrl": { "selector": "td.name a:not(.comments)", "attr": "href", "absolute": true },
+    "seeders": { "selector": "td:nth-child(6)", "attr": "text" },
+    "leechers": { "selector": "td:nth-child(7)", "attr": "text" },
+    "size": { "selector": "td:nth-child(4)", "attr": "text" }
+  },
+  "magnet": {
+    "fromDetailPage": false
+  }
+}

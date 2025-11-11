@@ -1,0 +1,13 @@
+{
+  "listSelector": "div.home_list_entry",
+  "fields": {
+    "title": { "selector": "div.torrent_title a", "attr": "text" },
+    "detailUrl": { "selector": "div.torrent_title a", "attr": "href", "absolute": true },
+    "size": { "selector": "span.size", "attr": "text" },
+    "seeders": { "selector": "span.seeders", "attr": "text" },
+    "leechers": { "selector": "span.leechers", "attr": "text" }
+  },
+  "magnet": {
+    "fromDetailPage": false
+  }
+}

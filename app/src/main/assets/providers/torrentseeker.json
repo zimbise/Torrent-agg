@@ -1,0 +1,12 @@
+{
+  "listSelector": "div.results div.result",
+  "fields": {
+    "title": { "selector": "h3 a", "attr": "text" },
+    "detailUrl": { "selector": "h3 a", "attr": "href", "absolute": true },
+    "size": { "selector": "p.meta", "attr": "text" }
+  },
+  "magnet": {
+    "fromDetailPage": true,
+    "detailMagnetSelector": "a[href^='magnet:?']"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "listSelector": "table.lista2t tbody tr",
+  "fields": {
+    "title": { "selector": "td:nth-child(2) a", "attr": "text" },
+    "detailUrl": { "selector": "td:nth-child(2) a", "attr": "href", "absolute": true },
+    "seeders": { "selector": "td:nth-child(6)", "attr": "text" },
+    "leechers": { "selector": "td:nth-child(7)", "attr": "text" },
+    "size": { "selector": "td:nth-child(5)", "attr": "text" }
+  },
+  "magnet": {
+    "fromDetailPage": true,
+    "detailMagnetSelector": "a[href^='magnet:?']"
+  }
+}

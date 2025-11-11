@@ -1,0 +1,14 @@
+{
+  "listSelector": "table.table tbody tr",
+  "fields": {
+    "title": { "selector": "td.n a", "attr": "text" },
+    "detailUrl": { "selector": "td.n a", "attr": "href", "absolute": true },
+    "seeders": { "selector": "td.s", "attr": "text" },
+    "leechers": { "selector": "td.l", "attr": "text" },
+    "size": { "selector": "td.z", "attr": "text" }
+  },
+  "magnet": {
+    "fromDetailPage": true,
+    "detailMagnetSelector": "a[href^='magnet:?']"
+  }
+}

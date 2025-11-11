@@ -1,0 +1,12 @@
+{
+  "listSelector": "div.results dl",
+  "fields": {
+    "title": { "selector": "dt a", "attr": "text" },
+    "detailUrl": { "selector": "dt a", "attr": "href", "absolute": true },
+    "size": { "selector": "dd", "attr": "text" }
+  },
+  "magnet": {
+    "fromDetailPage": true,
+    "detailMagnetSelector": "a[href^='magnet:?']"
+  }
+}

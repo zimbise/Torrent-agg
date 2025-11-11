@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "com.zim.tagg.app-debug-31:/layout_activity_settings.xml.flat",
+        "source": "com.zim.tagg.app-main-33:/layout/activity_settings.xml"
+    },
+    {
+        "merged": "com.zim.tagg.app-debug-31:/layout_item_result.xml.flat",
+        "source": "com.zim.tagg.app-main-33:/layout/item_result.xml"
+    },
+    {
+        "merged": "com.zim.tagg.app-debug-31:/layout_activity_main.xml.flat",
+        "source": "com.zim.tagg.app-main-33:/layout/activity_main.xml"
+    }
+]

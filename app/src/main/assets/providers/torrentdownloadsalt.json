@@ -1,0 +1,14 @@
+{
+  "listSelector": "div#torrent_results div.torrent",
+  "fields": {
+    "title": { "selector": "a.torrent_name", "attr": "text" },
+    "detailUrl": { "selector": "a.torrent_name", "attr": "href", "absolute": true },
+    "seeders": { "selector": "span.seeders", "attr": "text" },
+    "leechers": { "selector": "span.leechers", "attr": "text" },
+    "size": { "selector": "span.size", "attr": "text" }
+  },
+  "magnet": {
+    "fromDetailPage": true,
+    "detailMagnetSelector": "a[href^='magnet:?']"
+  }
+}

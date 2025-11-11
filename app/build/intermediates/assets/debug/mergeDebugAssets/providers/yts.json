@@ -1,0 +1,12 @@
+{
+  "listSelector": ".browse-movie-wrap",
+  "fields": {
+    "title": { "selector": ".browse-movie-title", "attr": "text" },
+    "detailUrl": { "selector": "a.browse-movie-link", "attr": "href", "absolute": true },
+    "size": { "selector": ".browse-movie-year", "attr": "text" }
+  },
+  "magnet": {
+    "fromDetailPage": true,
+    "detailMagnetSelector": "a[href^='magnet:?']"
+  }
+}
